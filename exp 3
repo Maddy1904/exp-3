@@ -1,0 +1,5 @@
+text = input("Link?")
+replacements = {'%': '+', '2': '+', '0': '+'}
+for old, new in replacements.items():
+    text = text.replace(old, new)
+print(text
